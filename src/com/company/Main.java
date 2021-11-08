@@ -6,7 +6,7 @@ public class Main
         System.out.println("Hello World");
         System.out.println("My new branch");
         System.out.println("Keep going");
-        //добавить новый комментарий
+        //добавить новый комментарий после текста
 
     }
 }
