@@ -4,8 +4,9 @@ public class Main
 {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.printf("My new branch");
-        System.out.printf("Keep going");
+        System.out.println("My new branch");
+        System.out.println("Keep going");
+        //добавить новый комментарий
 
     }
 }
