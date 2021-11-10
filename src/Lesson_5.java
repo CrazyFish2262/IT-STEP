@@ -47,6 +47,7 @@ public class Lesson_5 {
     */
 
 
+/*
   qwerty(34,546,235,55,76743, "hello, world");
 
 }
@@ -56,9 +57,11 @@ public class Lesson_5 {
         System.out.print("Byte is " + a + " and " + "Short is " + b + " and " + "Int is " + c + " and " + "Double is " + d);
         return;
     }
+*/
 
 
     }
+}
 
 
 
