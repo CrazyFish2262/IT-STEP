@@ -1,8 +1,10 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Lesson7 {
     public static void main(String[] args) {
-        Pets pet1 = new Pets("cat", "Kitty", 3);
+  /*      Pets pet1 = new Pets("cat", "Kitty", 3);
         Pets pet2 = new Pets("dog", "Chacky", 4);
         Pets pet3 = new Pets("frog", "Feona", 2);
         Pets pet4 = new Pets("spider", "Peter", 4);
@@ -41,7 +43,7 @@ Pets [] myPets1 = new Pets[]{pet1, pet5};
         System.out.println(car1.speed);
 
        Person [] personList = new Person []{person1, person2, person3, person4, person5};
-/*       int maxPrise = 0;
+*//*       int maxPrise = 0;
        String richManName = "null";
        for (int i = 0; i < personList.length; i++){
            if (personList[i].personalCar.prise > maxPrise){
@@ -50,7 +52,7 @@ Pets [] myPets1 = new Pets[]{pet1, pet5};
            }
 
        }
-        System.out.println("Maximum car prise is " + maxPrise + ". " + richManName + " is the richest man");*/
+        System.out.println("Maximum car prise is " + maxPrise + ". " + richManName + " is the richest man");*//*
 
         System.out.println();
         System.out.println();
@@ -68,7 +70,9 @@ Pets [] myPets1 = new Pets[]{pet1, pet5};
         }
 
 
+*/
 
+        Calculator calculator = new Calculator();
+        System.out.println(calculator.plus(4,5));
 
-    }
-
+    }}
