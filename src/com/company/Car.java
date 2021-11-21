@@ -15,10 +15,10 @@ public class Car {
     public void getInfo(){
         System.out.println("Car brand is " + brand + ". Car's body type is " + bodyType + ". Color is " + color);
     }
-    void gas(){
+    public void gas(){
         this.speed = 60;
     }
-    void breaK(){
+    public void breaK(){
         this.speed = 0;
     }
 }

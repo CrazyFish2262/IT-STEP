@@ -15,5 +15,6 @@ public class Person {
     public void getInfo() {
         System.out.println("name: " + name + ", age: " + age);
         personalCar.getInfo();
+        System.out.println();
     }
 }

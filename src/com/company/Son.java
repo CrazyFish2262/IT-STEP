@@ -1,10 +1,10 @@
 package com.company;
 
-public class Son extends hUMAN{
+public class Son extends hUMAN {
     Son(String newName) {
         super(newName);
     }
-    public void slush(){
+    public void slush() {
         System.out.println(this.name + " слушается");
     }
 }
