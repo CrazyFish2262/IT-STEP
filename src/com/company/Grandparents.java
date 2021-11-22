@@ -1,6 +1,9 @@
 package com.company;
 
 public class Grandparents extends DZ_Object {
+    String familyMember;
+    String occupation;
+    Pets[] objectPets;
     Grandparents(String yourObjRace, String objFamilyMember, String yourObjUniqueName,
                  int yourObjAge, String yourObjOccupation, Pets[] yourObjPets) {
         super(yourObjRace, yourObjUniqueName, yourObjAge);
@@ -8,10 +11,6 @@ public class Grandparents extends DZ_Object {
         this.occupation = yourObjOccupation;
         this.objectPets = yourObjPets;
     }
-
-    String familyMember;
-    String occupation;
-    Pets[] objectPets;
 
     public void getInfo() {
         getObject();

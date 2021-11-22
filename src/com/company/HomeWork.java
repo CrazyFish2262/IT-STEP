@@ -28,8 +28,6 @@ public class HomeWork {
         Parents father = new Parents("human", "the father",
                 "Ben", 46, "Doctor", kids, myPets3);
 
-        Parents[] parents = new Parents[]{mother, father};
-        Grandparents[] grandparents = new Grandparents[]{grandfather};
 
         grandfather.getInfo();
         mother.getInfo();
