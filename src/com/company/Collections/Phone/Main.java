@@ -10,17 +10,17 @@ public class Main {
         System.out.println(phone1.toString());
         phone1.receiveCall("Alejandro");
         System.out.println(phone1.getNumber());
-        phone1.receiveCaller("Alejandro", "+375293332211");
+
         System.out.println();
         System.out.println(phone2.toString());
         phone2.receiveCall("Igor");
         System.out.println(phone2.getNumber());
-        phone2.receiveCaller("Igor", "+375294443322");
+
         System.out.println();
         System.out.println(phone3.toString());
         phone3.receiveCall("Alberto");
         System.out.println(phone3.getNumber());
-        phone3.receiveCaller("Alberto", "+375295554433");
+
         System.out.println();
 
 

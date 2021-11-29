@@ -31,12 +31,6 @@ public class Phone implements receiveCall {
         System.out.println("Звонит " + name);
     }
 
-    @Override
-    public void receiveCaller(String name, String number) {
-        this.number = number;
-        System.out.println("Звонит " + name + ". The phone number is " + getNumber());
-
     }
 
 
-}
